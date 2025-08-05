@@ -6,7 +6,7 @@ Below are the User Stories. Contact me at kajolmurmu.13292@gmail.com if you want
 🔥 User Stories, Pages & APIs
 Each user story below shows what the user can do, the main page they’ll use, and the core backend API endpoint.
 
-Registration & Sign-In
+**1. Registration & Sign-In**
 
 I want to create an account or log in—my email type (work/personal) sets my role.
 
@@ -14,7 +14,7 @@ Page: /signup, /login
 
 API: POST /api/auth/signup, POST /api/auth/login
 
-Profile Setup & Email Verification
+**2. Profile Setup & Email Verification**
 
 I want to set up my professional profile and verify my email.
 
@@ -22,7 +22,7 @@ Page: /profile
 
 API: PUT /api/users/{id}, POST /api/auth/verify-email
 
-Company Domain Whitelisting
+**3. Company Domain Whitelisting**
 
 I (admin) want to manage which company domains allow work email roles.
 
@@ -30,7 +30,7 @@ Page: /admin/company-domains
 
 API: GET/POST/DELETE /api/admin/company-domains
 
-Browse Job Feed
+**4 Browse Job Feed**
 
 I want to explore all jobs and referrals, filtering as needed.
 
@@ -38,7 +38,7 @@ Page: /jobs
 
 API: GET /api/jobs?filters
 
-View Job/Referral Details
+**5. View Job/Referral Details**
 
 I want to see full details for any job or referral post.
 
@@ -46,7 +46,7 @@ Page: /jobs/{id}
 
 API: GET /api/jobs/{id}
 
-Apply to Job or Request Referral
+**6. Apply to Job or Request Referral**
 
 I want to submit a job application or a referral request.
 
@@ -54,7 +54,7 @@ Page: /jobs/{id}/apply
 
 API: POST /api/jobs/{id}/apply
 
-Post New Job (Work Email Only)
+**7.Post New Job (Work Email Only)**
 
 As a work-email user, I want to post job openings at my company.
 
